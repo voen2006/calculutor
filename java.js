@@ -14,6 +14,7 @@ let btnDel = document.querySelector('.btndel');
 let btnMno = document.querySelector('.btnmno');
 let btnIs = document.querySelector('.btnis');
 let btnC = document.querySelector('.btn-c');
+let btnCom = document.querySelector('.btn-com');
 let p1 = document.querySelector('.p');
 
 
@@ -24,10 +25,18 @@ let num3 = '';
 
 
 btnC.onclick = function () {
-    p1.innerHTML = " nothin";
+    p1.innerHTML = "0 ";
     num1 = '';
     num2 = '';
     num3 = '';
+}
+btnCom.onclick = function () {
+    if (num3 == '') {
+        num1=p1.innerHTML = num1 + '.' ;
+    }
+    else {
+        num2=p1.innerHTML = num2 + '.';
+    }
 }
 btn1.onclick = function () {
     if (num3 == '') {
