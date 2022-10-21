@@ -9,6 +9,7 @@ button{
     font-size: 20px;
     color: #E6E6FA ;
     transition: 0.5s;
+    text-align: center;
 } 
 button:hover{
     background-color: #6d00bb ;
