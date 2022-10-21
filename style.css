@@ -1,0 +1,32 @@
+button{
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: #4B0082 ;
+    border-radius: 10%;
+    box-shadow: 3px 3px 25px #e6e6fa2a;
+    margin: 1px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    color: #E6E6FA ;
+    transition: 0.5s;
+} 
+button:hover{
+    background-color: #6d00bb ;
+    box-shadow: 3px 3px 25px #e6e6fa9d;
+}
+button:active{
+    font-size: 25px;
+    background-color: #bf65ff ;
+    transition: 0s;
+    box-shadow: 0px 0px 35px #e6e6fa;
+}
+.p{
+    box-shadow: 3px 3px 15px #e6e6fac2;
+    width: 180px;
+    color: #ffffff;
+    text-align: right;
+}
+body{
+    background-color: #662d91;
+    
+}
