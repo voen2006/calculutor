@@ -32,108 +32,114 @@ btnC.onclick = function () {
 }
 btnCom.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '.' ;
+        num1 = p1.innerHTML = num1 + '.';
     }
     else {
-        num2=p1.innerHTML = num2 + '.';
+        num2 = p1.innerHTML = num2 + '.';
     }
 }
 btn1.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '1';
+        num1 = p1.innerHTML = num1 + '1';
     }
     else {
-        num2=p1.innerHTML = num2 + '1';
+        num2 = p1.innerHTML = num2 + '1';
     }
 }
 btn2.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '2';
+        num1 = p1.innerHTML = num1 + '2';
     }
     else {
-        num2=p1.innerHTML = num2 + '2';
+        num2 = p1.innerHTML = num2 + '2';
     }
 }
 btn3.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '3';
+        num1 = p1.innerHTML = num1 + '3';
     }
     else {
-        num2=p1.innerHTML = num2 + '3';
+        num2 = p1.innerHTML = num2 + '3';
     }
 }
 btn4.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '4';
+        num1 = p1.innerHTML = num1 + '4';
     }
     else {
-        num2=p1.innerHTML = num2 + '4';
+        num2 = p1.innerHTML = num2 + '4';
     }
 }
 btn5.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '5';
+        num1 = p1.innerHTML = num1 + '5';
     }
     else {
-        num2=p1.innerHTML = num2 + '5';
+        num2 = p1.innerHTML = num2 + '5';
     }
 }
 btn6.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '6';
+        num1 = p1.innerHTML = num1 + '6';
     }
     else {
-        num2=p1.innerHTML = num2 + '6';
+        num2 = p1.innerHTML = num2 + '6';
     }
 }
 btn7.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '7';
+        num1 = p1.innerHTML = num1 + '7';
     }
     else {
-        num2=p1.innerHTML = num2 + '7';
+        num2 = p1.innerHTML = num2 + '7';
     }
 }
 btn8.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '8';
+        num1 = p1.innerHTML = num1 + '8';
     }
     else {
-        num2=p1.innerHTML = num2 + '8';
+        num2 = p1.innerHTML = num2 + '8';
     }
 }
 btn9.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '9';
+        num1 = p1.innerHTML = num1 + '9';
     }
     else {
-        num2=p1.innerHTML = num2 + '9';
+        num2 = p1.innerHTML = num2 + '9';
     }
 }
 btn0.onclick = function () {
     if (num3 == '') {
-        num1=p1.innerHTML = num1 + '0';
+        num1 = p1.innerHTML = num1 + '0';
     }
     else {
-        num2=p1.innerHTML = num2 + '0';
+        num2 = p1.innerHTML = num2 + '0';
     }
 }
 btnIs.onclick = function () {
     if (num3 == '+') {
-        num1=p1.innerHTML = +num1 + +num2;
-        num2='';
+        num1 = p1.innerHTML = +num1 + +num2;
+        num2 = '';
     }
-    if (num3 == '-') {
-        num1=p1.innerHTML = num1 - num2;
-        num2='';
+    else if (num3 == '-') {
+        num1 = p1.innerHTML = num1 - num2;
+        num2 = '';
     }
-    if (num3 == '/') {
-        num1=p1.innerHTML = num1 / num2;
-        num2='';
+    else if (num3 == '/') {
+        if (num2 == '0') {
+            p1.innerHTML = 'Error'
+            num2 = '';
+        }
+        else {
+            num1 = p1.innerHTML = num1 / num2;
+            num2 = '';
+        }
     }
-    if (num3 == '*') {
-        num1=p1.innerHTML = num1 * num2;
-        num2='';
+    else if (num3 == '*') {
+        num1 = p1.innerHTML = num1 * num2;
+        num2 = '';
     }
 }
 btnPlus.onclick = function () {
